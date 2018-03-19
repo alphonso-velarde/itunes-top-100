@@ -1,0 +1,107 @@
+@import "config";
+
+.dark-bg-color{
+    background-color: #343a40;
+}
+.song-list-div{
+    max-height:500px; 
+    overflow-y:scroll;
+}
+
+.song-list-div {
+    max-height: 500px;
+    overflow-y: scroll;
+    }
+
+.main-bg-color {
+    background-color: #57bc90;
+}
+
+.center {
+    text-align: center;
+}
+
+.song-search-div{
+    margin-top:30px;
+    background-color:#77c9d4;
+    padding: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.div-spacing-top{
+    margin-top:20px;
+}
+
+.table-hover:hover{
+    background-color: #57bc90;
+    color:white !important;
+    cursor: pointer;
+}
+
+.table-hover:hover .font-stack{
+    color: white !important;
+}
+
+.font-stack{
+    font-size:11px;
+    color:#9B8982; 
+    font-family: $default-stack;
+}
+
+.font-stack-white{
+    font-size:11px;
+    color:white;
+    font-family: $default-stack;
+}
+
+.font-stack-label-big-white{
+    font-size:40px;
+    color:white;
+    font-family: $header-stack; 
+}
+
+.font-stack-label-big{
+    font-size:40px;
+    color:#9B8982;
+    font-family: $header-stack; 
+}
+
+.no-result-style{
+    font-size:20px;
+    color:white;
+    font-family: $default-stack;
+}
+
+.brand-text{
+    font-size:20px;
+    color:white;
+    font-family: $header-stack; 
+}
+
+.header-text{
+    font-size:20px;
+    color:white !important;
+    font-family: $default-stack; 
+}
+
+.header-text:hover{
+   border-bottom:1px solid #57bc90;
+   cursor: pointer;
+}
+
+.result-div:hover{
+    cursor: pointer;
+}
+
+.nav-item-spacing{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mg-top-10{
+    margin-top:10px;
+}
